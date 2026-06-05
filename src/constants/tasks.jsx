@@ -33,7 +33,7 @@ const TASKS = [
   },
   {
     id: 5,
-    title: "Assistrir uma série",
+    title: "Assistir uma série",
     description:
       "From (Origem) - série de terror e ficção científica criada por John Griffin, que acompanha moradores e viajantes presos em uma cidade misteriosa.",
     time: "evening",
