@@ -1,1 +1,10 @@
-.git/hooks/commit-msg \$1
+message=$(cat "$1")
+pattern='^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([[:alnum:]._/-]+\))?!?: .+'
+
+if printf '%s' "$message" | grep -Eq "$pattern"; then
+	exit 0
+fi
+
+echo "Invalid commit message: $message" >&2
+echo "Use Conventional Commits, for example: feat: add task dialog" >&2
+exit 1
