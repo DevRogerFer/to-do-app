@@ -3,7 +3,7 @@ import { createPortal } from "react-dom"
 import Button from "./Button"
 import Input from "./Input"
 
-const AddTaskDialog = ({ isOpen }) => {
+const AddTaskDialog = ({ isOpen, handleClose }) => {
   if (!isOpen) return null
 
   return createPortal(
@@ -15,13 +15,26 @@ const AddTaskDialog = ({ isOpen }) => {
           Insira as informações abaixo
         </p>
 
-        <div className="flex flex-col space-y-4">
-          <Input />
-          <Input />
-          <Input />
+        <div className="flex w-[336px] flex-col space-y-4">
+          <Input id="title" label="Título" placeholder="Título da tarefa..." />
+          <Input id="time" label="Horário" placeholder="Horário" />
+          <Input
+            id="description"
+            label="Descrição"
+            placeholder="Descrição da tarefa..."
+          />
           <div className="flex gap-3">
-            <Button>Cancelar</Button>
-            <Button>Salvar</Button>
+            <Button
+              size="large"
+              className="w-full"
+              variant="secondary"
+              onClick={handleClose}
+            >
+              Cancelar
+            </Button>
+            <Button size="large" className="w-full">
+              Salvar
+            </Button>
           </div>
         </div>
       </div>
