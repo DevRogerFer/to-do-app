@@ -1,45 +1,59 @@
 {
   "tasks": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Meditar",
       "description": "Meditação para iniciantes: 10 passos para acalmar a mente e encontrar a paz interior.",
       "time": "morning",
       "status": "done"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Estudar React",
       "description": "Estudar os conceitos básicos de React e criar um projeto simples.",
       "time": "morning",
       "status": "done"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Treinar",
       "description": "Treino de 30 minutos para queimar calorias e fortalecer o corpo.",
       "time": "afternoon",
       "status": "in_progress"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Ler um livro",
       "description": "Transformando palavras em dinheiro: 42 lições que ninguém ensina sobre copywriting e marketing digital.",
       "time": "afternoon",
       "status": "in_progress"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Assistir uma série",
       "description": "From (Origem) - série de terror e ficção científica criada por John Griffin, que acompanha moradores e viajantes presos em uma cidade misteriosa.",
       "time": "evening",
       "status": "not_started"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Descansar",
       "description": "Descansar é essencial para recarregar as energias e manter a saúde mental e física em dia.",
       "time": "evening",
+      "status": "not_started"
+    },
+    {
+      "id": "2f4aad1e-336d-49c9-8e40-b12a78cc5492",
+      "title": "Teste",
+      "time": "morning",
+      "description": "Teste",
+      "status": "not_started"
+    },
+    {
+      "id": "3de0ab2b-7148-4ec4-906a-9c85f790ca7b",
+      "title": "Novo",
+      "time": "morning",
+      "description": "Novo teste",
       "status": "not_started"
     }
   ]
