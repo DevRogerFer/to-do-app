@@ -41,20 +41,6 @@
       "description": "Descansar é essencial para recarregar as energias e manter a saúde mental e física em dia.",
       "time": "evening",
       "status": "not_started"
-    },
-    {
-      "id": "2f4aad1e-336d-49c9-8e40-b12a78cc5492",
-      "title": "Teste",
-      "time": "morning",
-      "description": "Teste",
-      "status": "not_started"
-    },
-    {
-      "id": "3de0ab2b-7148-4ec4-906a-9c85f790ca7b",
-      "title": "Novo",
-      "time": "morning",
-      "description": "Novo teste",
-      "status": "not_started"
     }
   ]
 }
