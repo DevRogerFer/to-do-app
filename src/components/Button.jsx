@@ -9,7 +9,7 @@ const Button = ({
   ...rest
 }) => {
   const button = tv({
-    base: "flex items-center justify-center gap-2 rounded-md px-3 font-medium transition hover:opacity-75",
+    base: `flex items-center justify-center gap-2 rounded-md px-3 font-medium transition hover:opacity-75`,
     variants: {
       color: {
         primary: "bg-brand-primary text-white",
@@ -20,15 +20,21 @@ const Button = ({
         small: "py-1 text-xs",
         large: "py-2 text-sm",
       },
-      defaultVariants: {
-        color: "primary",
-        size: "small",
+      disabled: {
+        true: "cursor-not-allowed opacity-50 hover:opacity-50",
       },
+    },
+    defaultVariants: {
+      color: "primary",
+      size: "small",
     },
   })
 
   return (
-    <button className={button({ color, size, className })} {...rest}>
+    <button
+      className={button({ color, size, disabled: rest.disabled, className })}
+      {...rest}
+    >
       {children}
     </button>
   )
