@@ -103,9 +103,14 @@ const AddTaskDialog = ({
               placeholder="Título da tarefa..."
               errorMessage={titleError?.message}
               ref={titleRef}
+              disabled={isLoading}
             />
 
-            <TimeSelect errorMessage={timeError?.message} ref={timeRef} />
+            <TimeSelect
+              errorMessage={timeError?.message}
+              ref={timeRef}
+              disabled={isLoading}
+            />
             {timeError && (
               <p className="text-left text-xs text-red-500">
                 {timeError.message}
@@ -118,6 +123,7 @@ const AddTaskDialog = ({
               placeholder="Descrição da tarefa..."
               errorMessage={descriptionError?.message}
               ref={descriptionRef}
+              disabled={isLoading}
             />
 
             <div className="flex gap-3">
