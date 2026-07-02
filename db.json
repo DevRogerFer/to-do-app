@@ -43,10 +43,10 @@
       "status": "not_started"
     },
     {
-      "id": "cba101ba-1fc7-4878-b45d-17767a759045",
-      "title": "Teste de tarefa",
+      "id": "cdcf07c7-009e-46fc-a75b-d973fcf47286",
+      "title": "Tarefa de teste",
       "time": "morning",
-      "description": "Descrição sobre o teste",
+      "description": "Descrição de teste",
       "status": "not_started"
     }
   ]
