@@ -92,7 +92,7 @@ npm run dev
 
 A versão de produção está disponível na Vercel:
 
-🔗 **[to-do-app-devrogerfer.vercel.app](https://to-do-app-devrogerfer.vercel.app)**
+🔗 **[https://to-do-app-kappa-lilac.vercel.app/](https://to-do-app-kappa-lilac.vercel.app/)**
 
 ---
 
